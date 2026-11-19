@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tips</title>
+<style>
+:root { --bg: #f5f7fa; --panel: #ffffff; --fg: #18202c; --muted: #5a6577; --rule: #d9dfe8; --navy: #2a5d9a; }
+@media (prefers-color-scheme: dark) { :root { --bg: #111722; --panel: #182131; --fg: #e6ebf2; --muted: #9aa6b8; --rule: #2a3547; --navy: #7fa9df; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 40px 16px 56px; }
+h1 { font-size: 28px; margin: 0 0 4px; }
+.lead { color: var(--muted); margin: 0 0 28px; }
+ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+a.card { display: block; background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; color: inherit; text-decoration: none; }
+a.card:hover, a.card:focus-visible { border-color: var(--navy); outline: none; }
+.card h2 { margin: 0 0 4px; font-size: 18px; color: var(--navy); }
+.card p { margin: 0; color: var(--muted); }
+.tag { display: inline-block; font-size: 12px; margin-top: 8px; color: var(--muted); }
+nav { margin-bottom: 20px; font-size: 14px; }
+nav a { color: var(--navy); }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="../">← k3ngo314</a></nav>
+  <h1>Tips</h1>
+  <p class="lead">Small pages to build intuition by moving the parameters yourself.</p>
+  <ul>
+    <li>
+      <a class="card" href="thin-lens/">
+        <h2>Thin Lens Bench</h2>
+        <p>Move the object, the focal length, the aperture and the focus: watch where the image forms (1/a + 1/b = 1/f) and how large the blur disc gets.</p>
+        <span class="tag">optics · focus · depth of field</span>
+      </a>
+    </li>
+  </ul>
+</main>
+</body>
+</html>
